@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.container button {
+  position: absolute;
+  bottom: -30px;
+  left: 45%;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  transition: 0.45s;
+  padding: 7px 10px;
+  border-radius: 10px;
+}
+
+img {
+  margin: 10px 0;
+  width: 90%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=styles.css.map */
